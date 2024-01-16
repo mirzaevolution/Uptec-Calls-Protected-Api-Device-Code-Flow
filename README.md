@@ -124,7 +124,7 @@ Ok, now we need to add a method to initiate the login. This method will prepare 
 creating the storage cache helper until the **PublicClientApplication** initialization.
 Because this app uses Device Code flow, we should use public client option and no need for Client Secret.
 
-The **StorageCreationPropertiesBuilder** and **MsalCacheHelper** are responsible to store and retrive saved token 
+The **StorageCreationPropertiesBuilder** and **MsalCacheHelper** are responsible to store and retrieve saved token 
 we gain using **PublicClientApplication** instance to a file in our system. In our sample, we name it: **'token.cache'**.
 
 
