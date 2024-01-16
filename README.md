@@ -202,7 +202,7 @@ we will use it. But, if token doesn't exist or expire, we will do a login proces
                 }
                 else
                 {
-                    Console.WriteLine("Unknown error occured");
+                    Console.WriteLine("Unknown error occurred");
                     Console.WriteLine(ex.ToString());
                 }
             }
