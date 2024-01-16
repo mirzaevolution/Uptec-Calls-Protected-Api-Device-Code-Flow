@@ -33,8 +33,6 @@ namespace UptecDeviceCodeFlowConsole
 
         //web api base address
         private static readonly string _apiBaseAddress = "https://localhost:8181";
-
-
         #endregion
 
         static async Task InitiateLogin()
